@@ -1,0 +1,25 @@
+<style>
+    li{
+        text-align: center;
+        font-size: 30px;
+    }
+    img{
+            display: block;
+            margin-right: auto;
+            margin-left: auto
+    }
+    body{
+        background-color: rgb(255, 225, 186);
+    }
+    a{
+        text-align: center;
+        
+    }
+    p{
+        font-size: 30px;
+        text-align: center;
+        color: rgb(122, 36, 36)
+    }
+    h2{
+        color: rgb(99, 58, 17)
+    }
