@@ -1,0 +1,62 @@
+h1{
+    padding-left: 25px;
+    font-size: 20px;
+    color:burlywood
+
+}
+body{
+    background-color: rgb(244, 225, 191);
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* padding: 35px 12%; */
+    background: rgb(104, 58, 33);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.navbar a{
+    font-size: 20px;
+    color:bisque
+}
+.navbar{
+    word-spacing: 20px;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: brown;
+    border-bottom: 3px soild brown;
+}
+.contact{
+    padding: 10px 28px;
+    background-color: wheat;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    color:rgb(126, 37, 37)
+    /* border 2px soild transparent; */
+    /* border-radius: 8px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease; */
+}
+.contact:hover,
+.contact:active{
+    color: rgb(190, 26, 26);
+    box-shadow: inset;
+    /* background-color: wheat;
+    box-shadow: 0 0 25px white
+    color whitesmoke; */
+}
+.home{
+    color: black;
+}
